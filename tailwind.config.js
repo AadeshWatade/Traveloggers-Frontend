@@ -6,10 +6,12 @@ module.exports = {
       fontFamily: {
         playfair: ['Playfair Display, ui-sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        montSerrat: ['Montserrat'],
       },
       colors: {
         logoColor: '#FAFF00',
         acccentColor: '#00bcca',
+        purpleAccColor: '#4A21AA',
       },
     },
   },
