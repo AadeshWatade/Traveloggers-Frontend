@@ -5,9 +5,9 @@ import whyTravImg from '../../assets/images/whyTravImg.svg'
 const WhyTraveloggers = () => {
     return (
         <div className=''>
-            <span className='flex flex-row justify-center font-poppins font-semibold text-3xl space-x-2 top-auto'><p className='text-purpleAccColor'>Why </p> <p> Traveloggers??</p></span>
+            <span className='flex flex-row justify-center font-poppins font-semibold text-3xl space-x-2 mt-12'><p className='text-purpleAccColor'>Why </p> <p> Traveloggers??</p></span>
             <img className='mx-auto my-2' src={Lines} alt="" />
-            <div className='grid grid-cols-2 my-12 mx-16'>
+            <div className='grid grid-cols-1 md:grid-cols-2 my-12 mx-16'>
                 <img className='' src={whyTravImg} alt="" />
                 <p className='overflow-hidden text-justify my-auto text-lg font-montSerrat'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu sit massa amet, volutpat scelerisque sed venenatis, felis, at. Vel commodo accumsan, leo sodales posuere est mattis convallis. Facilisis in dolor sit nam amet suspendisse augue nec, praesent. Tempor nunc vel lacus, sit. <br />

@@ -22,9 +22,6 @@ const Navbar = () => {
             }`}>
             <p className='text-logoColor text-3xl '>Traveloggers</p>
             <ul className='flex flex-row justify-end space-x-8 text-xl my-auto'>
-                <li><a href='/about'> About</a></li>
-                <li><a href='/about'> Our Services</a></li>
-                <li><a href='/about'> Blogs</a></li>
                 <li><a href='/login'> Login</a></li>
             </ul>
         </nav>

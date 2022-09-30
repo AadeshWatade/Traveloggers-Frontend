@@ -10,7 +10,6 @@ const LandingPage = () => {
             <HeroSection />
             <WhyTraveloggers />
             <TopBlogs />
-            {/* All sections */}
             <Footer />
         </>
     )
