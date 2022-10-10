@@ -31,7 +31,7 @@ const TopBlogs = () => {
                     onClick={() => handleClick('left')}
                 />
                 <div
-                    className="flex items-center space-x-0.5 overflow-x-scroll scrollbar-hide md:space-x-2.5 md:px-6"
+                    className="flex items-center overflow-x-scroll scrollbar-hide space-x-2.5 md:px-6"
                     ref={rowRef}>
                     <TopBlogCard title='Mountains' />
                     <TopBlogCard title='Trees' />
